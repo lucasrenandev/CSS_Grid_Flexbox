@@ -1,6 +1,5 @@
 @media (max-width: 600px) {
 
-
     .section_Grid-1 {
         grid-template-columns: repeat(2, 1fr);
     }
