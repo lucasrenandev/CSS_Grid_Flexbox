@@ -63,8 +63,7 @@ header nav ul li a {
 /* === SECTION FLEXBOX === */
 
 .section_Flexbox {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
     flex-wrap: wrap;
     max-width: 800px;
     margin:  0 auto;

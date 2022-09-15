@@ -1,0 +1,38 @@
+@media (max-width: 600px) {
+
+
+    .section_Grid-1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section_Grid-1 div:nth-child(n + 4) {
+        display: block;
+    }
+
+    .section_Grid-1 div.anuncio {
+        grid-column: auto;
+        grid-row: auto;
+        order: -1;
+    }
+
+    .section_Grid-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .section_Grid-2 div {
+        flex: 1 0 200px;
+    }
+
+    .section_Grid-2 .sidebar {
+        display: flex;
+        overflow: scroll;
+    }
+
+    .section_Grid-2 .sidebar div:not(:last-child) {
+        margin: 0 10px 0 0;
+    }
+
+    .section_Grid-3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
