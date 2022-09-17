@@ -1,2 +1,2 @@
 # CSS_Grid_Flexbox
- Website focado no CSS Grid e Flexbox
+ Website com foco no CSS Grid e Flexbox
